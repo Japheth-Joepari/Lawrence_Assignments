@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>product html </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel = "icon" type = "image/png" href = "./icc.png">
+</head>
+<body>
+<header>
+    <nav class="navigation">
+        <a href="" class="active">Home</a>
+        <a href="">About</a>
+        <a href="">Contact Us</a>
+        <a href="">Products</a>
+        <a href="" onclick="myFunction2()">Developers Forum</a>
+        <a href="" onclick="myFunction1()">Logout </a>
+        <div id="inp">
+
+        </div>
+    </nav>
+</header>
+
+    <div id="input" class="inpt">
+        <h5 style="font-size: 17px">Input Your Product Details</h5>
+        <label for="">Product name:</label><br>
+        <input type="text" placeholder="Product name" id="name"> <br>
+        <label for="">Price:</label><br>
+        <input type="number" placeholder="Input Your Price $" id="num"> <br>
+        <label for="">Delivery:</label><br>
+        <input type="text" placeholder="Delivery Address:" id="address"><br>
+         <br>
+        <button id="btn1" >Add to Cart</button>
+        <button id="btn2">Remove From Cart</button>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
